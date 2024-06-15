@@ -1,0 +1,7 @@
+version : '2'
+services:
+  web_server:
+    build: .
+  proxy_server:
+    image: nginx
+
